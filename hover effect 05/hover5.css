@@ -1,0 +1,190 @@
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    height: 450px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    
+}
+
+#photo{
+    height: 450px;
+    width: 250px;
+     transition: .5s ease-in-out;
+}
+
+#filter{
+    height: 450px;
+    width: 250px;
+    background-color: red;
+    opacity: .3;
+    transition: .5s ease-in-out;
+}
+
+#name{
+    height: 40px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    top: 455px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-size: 200%;
+    font-family: monospace;
+    padding-top: 10px;
+    transition: .5s ease-in-out;
+    font-weight: bold;
+}
+
+#container:hover #filter{
+   transform: translate(0px,-455px);
+}
+#container:hover #name{
+   transform: translate(0px,-55px);
+}
+#container:hover #photo{
+   transform: translate(0px,-30px);
+}
+
+#fb-container{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: -45px;
+    left: 20px;
+    transition: .5s ease-in-out;
+
+}
+
+#fb{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    transition: .5s ease-in-out;
+}
+
+#fb:hover{
+    transform: rotateY(360deg);
+}
+
+#container:hover #fb-container{
+   transform: translate(0px,350px);
+}
+
+#twitter-container{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: -45px;
+    left: 75px;
+    transition: .6s ease-in-out;
+
+}
+
+#twitter{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    transition: .5s ease-in-out;
+}
+
+#twitter:hover{
+    transform: rotateY(360deg);
+}
+
+#container:hover #twitter-container{
+   transform: translate(0px,350px);
+}
+
+#insta-container{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: -45px;
+    left: 125px;
+    transition: .7s ease-in-out;
+
+}
+
+#insta{
+    height: 25px;
+    width: 25px;
+    padding-top: 8px;
+    padding-left: 8px;
+    transition: .5s ease-in-out;
+}
+
+#insta:hover{
+    transform: rotateY(360deg);
+}
+
+#container:hover #insta-container{
+   transform: translate(0px,350px);
+}
+
+#linked-container{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: -45px;
+    left: 175px;
+    transition: .8s ease-in-out;
+
+}
+
+#linked{
+    height: 25px;
+    width: 25px;
+    padding-top: 8px;
+    padding-left: 8px;
+    transition: .5s ease-in-out;
+}
+
+#linked:hover{
+    transform: rotateY(360deg);
+}
+
+#container:hover #linked-container{
+   transform: translate(0px,350px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

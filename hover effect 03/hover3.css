@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+     background-color: grey;
+}
+
+.container{
+   
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    
+}
+
+.img{
+    height: 300px;
+    width: 400px;
+}
+
+.filter{
+    height: 300px;
+    width: 400px;
+    background-color: grey;
+    opacity: .5;
+    transition: .3s ease-in-out;
+}
+
+.container:hover .filter{
+    transform: translateY(-304px);
+}
+
+#name{
+    position: absolute;
+    top: 60px;
+    left:-410px;
+    height: 40px;
+    width: 350px;
+    border: 2px solid white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    transition: .7s ease-in;
+}
+
+.container:hover #name{
+    transform: translateX(435px);
+}
+
+#social{
+    height: 100px;
+    width: 350px;
+    
+    position: absolute;
+    top: 150px;
+    right:-410px;
+    transition: .7s ease-in;
+}
+
+#find{
+    height: 30px;
+    width: 350;
+    text-align: center;
+    font-family: monospace;
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+#social-img{
+    height: 50px;
+    width: 150px;
+    margin: 0 auto;
+   
+}
+
+.social{
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    float: left;
+}
+
+.fb{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    transition: .5s ease-in-out;
+}
+
+.fb:hover{
+    transform: rotateY(360deg);
+}
+
+.container:hover #social{
+    transform: translateX(-430px);
+}
+
+
+
+
+
+
+
+
+
+

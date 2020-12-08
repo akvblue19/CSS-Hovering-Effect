@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.container{
+    height: 400px;
+    width: 200px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+img{
+    height: 400px;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    border: 2px solid white;
+    transition: 1s ease-in-out;
+    transform-origin: bottom;
+}
+
+img:nth-child(2){
+    top: 2px;
+    left: 2px;
+}
+img:nth-child(3){
+    top: 4px;
+    left: 4px;
+}
+img:nth-child(4){
+    top: 6px;
+    left: 6px;
+}
+img:nth-child(5){
+    top: 8px;
+    left: 8px;
+}
+
+.container:hover img:nth-child(1){
+    transform: rotate(-55deg);
+}
+.container:hover img:nth-child(2){
+    transform: rotate(-25deg);
+}
+.container:hover img:nth-child(3){
+    transform: rotate(0deg);
+}
+.container:hover img:nth-child(4){
+    transform: rotate(25deg);
+}
+.container:hover img:nth-child(5){
+    transform: rotate(55deg);
+}
+
+.img:hover{
+    
+    z-index: 2;
+
+}
+
+#avengers{
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    font-size: 350%;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    transform: scale(0);
+    transition: 1s ease-in-out;
+    
+}
+
+.container:hover #avengers{
+    transform: scale(1);
+}
+
